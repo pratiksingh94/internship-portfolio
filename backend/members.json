@@ -1,0 +1,32 @@
+{
+  "members": [
+    {
+      "name": "Pratik Singh",
+      "title": "CEO",
+      "bio": "A Web Developer and cybersecurity enthusiast",
+      "profilePictureUrl": "https://avatar.iran.liara.run/public",
+      "linkedinUrl": "https://linkedin.com/"
+    },
+    {
+      "name": "XYZ Singh",
+      "title": "CTO",
+      "bio": "chief technology officer",
+      "profilePictureUrl": "https://avatar.iran.liara.run/public",
+      "linkedinUrl": "https://linkedin.com/"
+    },
+    {
+      "name": "ABC Nayak",
+      "title": "Product Manager",
+      "bio": "Product visionary",
+      "profilePictureUrl": "https://avatar.iran.liara.run/public",
+      "linkedinUrl": "https://linkedin.com/"
+    },
+    {
+      "name": "Linus Torvalds",
+      "title": "COO",
+      "bio": "cheif operations officer",
+      "profilePictureUrl": "https://avatar.iran.liara.run/public",
+      "linkedinUrl": "https://linkedin.com/"
+    }
+  ]
+} 

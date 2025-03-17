@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, monospace;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  background-color: #0a0a0a;
+  color: rgba(255, 255, 255, 0.87);
+
+  --glow-primary: rgba(100, 108, 255, 0.6);
+  --glow-secondary: rgba(83, 91, 242, 0.4);
+  --glow-purple: rgba(168, 85, 247, 0.6);
+  --glow-pink: rgba(236, 72, 153, 0.6);
+  --text-glow-purple: rgba(168, 85, 247, 0.3);
+  --text-glow-pink: rgba(236, 72, 153, 0.3);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/*magic card */
+.bg-background {
+  background-color: #0a0a0a;
+}
+
+.bg-border {
+  background-color: rgba(63, 63, 70, 0.4);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+  /* font-size: 3em;
+  line-height:; */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+button:hover {
+  border-color: #646cff;
+  box-shadow: 0 0 15px var(--glow-primary), 0 0 5px var(--glow-secondary);
+  transform: translateY(-1px);
+}
+
+button.bg-gradient-to-r:hover {
+  box-shadow: 0 0 15px var(--glow-purple), 0 0 5px var(--glow-pink);
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+    --glow-primary: rgba(100, 108, 255, 0.4);
+    --glow-secondary: rgba(83, 91, 242, 0.2);
+    --glow-purple: rgba(168, 85, 247, 0.4);
+    --glow-pink: rgba(236, 72, 153, 0.4);
+    --text-glow-purple: rgba(168, 85, 247, 0.2);
+    --text-glow-pink: rgba(236, 72, 153, 0.2);
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.text-glow {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
+}
