@@ -15,8 +15,8 @@
 Clone the repository
 
 ```bash
-git  clone  https://github.com/pratiksingh94/internship-portfolio.git
-cd  internship-portfolio
+git clone https://github.com/pratiksingh94/internship-portfolio.git
+cd internship-portfolio
 ```
 
   
@@ -25,13 +25,13 @@ cd  internship-portfolio
 ### dependencies
 
 ```bash
-cd  backend
+cd backend
 
-npm  install
+npm install
 # or
-yarn  install
+yarn install
 # or
-pnpm  install
+pnpm install
 ```
 
 
@@ -51,11 +51,11 @@ PORT=5000
 Run the development server:
 
 ```bash
-npm  run  dev
+npm run dev
 # or
-yarn  dev
+yarn dev
 # or
-pnpm  dev
+pnpm dev
 ```  
 
 The api will be available at `http://localhost:5000`
@@ -74,13 +74,13 @@ curl -X POST localhost:5000/api/init-data
 1. Install dependencies
 
 ```bash
-cd  frontend
+cd frontend
 
-npm  install
+npm install
 # or
-yarn  install
+yarn install
 # or
-pnpm  install
+pnpm install
 ```
 
   
@@ -92,11 +92,11 @@ pnpm  install
 Run the development server:
 
 ```bash
-npm  run  dev
+npm run dev
 # or
-yarn  dev
+yarn dev
 # or
-pnpm  dev
+pnpm dev
 ```
 
   
