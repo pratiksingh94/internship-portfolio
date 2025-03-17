@@ -52,10 +52,10 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#0a0a0a]">
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <About />
-      <Services />
+      <Services /> */}
       <section className="py-20 bg-[#0a0a0a]" id="team">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Our Team</h2>
@@ -71,7 +71,7 @@ function App() {
           </div>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
