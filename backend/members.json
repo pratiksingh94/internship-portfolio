@@ -2,6 +2,8 @@
   "members": [
     {
       "name": "Pratik Singh",
+      "username": "pratik",
+      "password": "12345678",
       "title": "CEO",
       "bio": "A Web Developer and cybersecurity enthusiast",
       "profilePictureUrl": "https://avatar.iran.liara.run/public",
@@ -9,6 +11,8 @@
     },
     {
       "name": "XYZ Singh",
+      "username": "xyz",
+      "password": "12345678",
       "title": "CTO",
       "bio": "chief technology officer",
       "profilePictureUrl": "https://avatar.iran.liara.run/public",
@@ -16,6 +20,8 @@
     },
     {
       "name": "ABC Nayak",
+      "username": "abc",
+      "password": "12345678",
       "title": "Product Manager",
       "bio": "Product visionary",
       "profilePictureUrl": "https://avatar.iran.liara.run/public",
@@ -23,10 +29,22 @@
     },
     {
       "name": "Linus Torvalds",
+      "username": "linus",
+      "password": "12345678",
       "title": "COO",
       "bio": "cheif operations officer",
       "profilePictureUrl": "https://avatar.iran.liara.run/public",
       "linkedinUrl": "https://linkedin.com/"
+    }, 
+    {
+      "name": "admin",
+      "username": "admin",
+      "password": "admin",
+      "title": "admin",
+      "bio": "admin",
+      "profilePictureUrl": "https://avatar.iran.liara.run/public",
+      "linkedinUrl": "https://linkedin.com/",
+      "isAdmin": true
     }
   ]
 } 
